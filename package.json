@@ -1,0 +1,30 @@
+{
+  "name": "testefisgar",
+  "version": "1.0.0",
+  "description": "Captura de dados webcrawler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "cheerio": "^1.0.0-rc.11",
+    "dotenv": "^16.0.1",
+    "interval-promise": "^1.4.0",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.5",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "puppeteer": "^14.1.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "sequelize": "^6.20.1"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}
